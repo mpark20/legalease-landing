@@ -65,11 +65,15 @@ body {
 @media screen and (max-width: 800px) {
     .section {
         margin: 0; 
-        padding: 70px;
+        padding: 20px;
         display: block;
     }
     #screenshot {
         width: 100%;
         margin: 5% 0;
+        min-width: 0; 
+    }
+    #icon {
+        min-width: 0; 
     }
 }
