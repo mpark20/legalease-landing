@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "istok";
+    src: url("IstokWeb-Regular.ttf");
+}
+body {
+    font-family: istok;
+    background-color: #FFF8E8;
+    margin: 0;
+    font-size: 20px;
+}
+.banner {
+    margin: 20px 8px;
+    display: flex;
+    align-items: center;
+}
+.section {
+    margin: 0; 
+    padding: 70px;
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+}
+.blue {
+    background-color:#83B0B5;
+    color: white; 
+}
+.graphics {
+    margin: 20px;
+}
+.btn {
+    display: block;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+.btn:hover{
+    opacity:0.5;
+    transition: opacity linear 0.2s;
+}
+#screenshot {
+    width:80%;
+    border-radius:8px;
+    box-shadow:2px 2px 2px 2px grey;
+    min-width: 300px;
+    margin: 0 10%
+}
+#screenshot:hover {
+    transform:scale(1.1);
+    transition-duration: 0.5s;
+}
+#icon {
+    width: 80%; 
+    min-width:400px;
+}
