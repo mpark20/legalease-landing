@@ -54,3 +54,11 @@ body {
     width: 80%; 
     min-width:400px;
 }
+.footer {
+    background-color: black; 
+    padding: 20px; 
+}
+.footer p {
+    font-size: 16px;
+    margin-block: 0.1em;
+}
