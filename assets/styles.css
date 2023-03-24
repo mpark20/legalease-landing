@@ -52,7 +52,7 @@ body {
 }
 #icon {
     width: 80%; 
-    min-width:400px;
+    min-width:300px;
 }
 .footer {
     background-color: black; 
@@ -61,4 +61,15 @@ body {
 .footer p {
     font-size: 16px;
     margin-block: 0.1em;
+}
+@media screen and (max-width: 800px) {
+    .section {
+        margin: 0; 
+        padding: 70px;
+        display: block;
+    }
+    #screenshot {
+        width: 100%;
+        margin: 5% 0;
+    }
 }
